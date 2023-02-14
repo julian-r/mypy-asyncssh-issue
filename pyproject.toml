@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "mypy-asyncssh-issue"
+version = "0.1.0"
+description = ""
+authors = ["Julian David Rath <julian.rath@semadox.com>"]
+readme = "README.md"
+packages = [{include = "mypy_asyncssh_issue"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+mypy = "^1.0.0"
+asyncssh = "^2.13.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
